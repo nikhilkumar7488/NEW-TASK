@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-color: skyblue
+        }
+        .box{
+            border: 2px solid black;
+            height: 350px;
+            width: 1510px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: row;
+            background-color: bisque;
+            
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+            padding: 25px;
+            background-color: bisque;
+        }
+
+        img{
+            height: 250px;
+            width: 400px;
+        }
+
+        iframe{
+            height: 250px;
+            width: 700px;
+        }
+
+
+        
+        @media (max-width:1028px) {
+            .box{
+                border: 2px solid black;
+                height: 650px;
+                width: 510px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+                margin: 30px;
+    
+            }
+
+            img{
+                height: 250px;
+                width: 300px;
+            }
+
+            iframe{
+                height: 250px;
+                width: 300px;
+            }
+
+            body{
+                background-color: antiquewhite;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1     >The Blog Website</h1>
+    <div class="main">
+   
+        <div class="box">
+
+        <img src="./profile.jpeg" alt="">
+        
+        <iframe width="951" height="535" src="https://www.youtube.com/embed/4WjtQjPQGIs" title="Web Development Complete RoadMap for 2025 | from Basics to Advanced" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="main">
+<div class="box">
+
+    <img src="./image.jpeg" alt="">
+    
+    <iframe width="951" height="535" src="https://www.youtube.com/embed/4WjtQjPQGIs" title="Web Development Complete RoadMap for 2025 | from Basics to Advanced" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</body>
+</html>
